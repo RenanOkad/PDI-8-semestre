@@ -12,7 +12,6 @@ public class PBMTipoP3_a {
 
         String txtInicial = "P3\n#feep.pgm\n100 100\n15\n";
 
-        String caminhoTXT = "conteudos\\desenhoP3.txt";
         String caminhoArquivopbm = "conteudos\\desenhoP3a.pbm";
 
         Random random = new Random();

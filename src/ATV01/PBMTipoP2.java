@@ -12,7 +12,6 @@ public class PBMTipoP2 {
 
         String txtInicial = "P2\n#feep.pgm\n100 100\n16\n";
 
-        String caminhoTXT = "conteudos\\desenhoP2.txt";
         String caminhoArquivopbm = "C:conteudos\\desenhoP2.pbm";
 
         Random random = new Random();
@@ -34,8 +33,6 @@ public class PBMTipoP2 {
         }
 
         String caminhoArquivoCsv = "desenhos\\desenhoP2.pbm";
-        File arquivoTxt = new File(caminhoTXT);
-        File arquivoCsv = new File(caminhoArquivoCsv);
     }
 
 }
