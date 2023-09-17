@@ -30,9 +30,7 @@ public class main7b {
                 cont++;
             }
 
-        } catch (IOException  e) {
-            e.printStackTrace();
-        } catch (InterruptedException e) {
+        } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
 
